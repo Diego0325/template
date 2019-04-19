@@ -1,0 +1,16 @@
+// Main scss file
+
+// Imports
+@import 'libs/fonts';
+
+html {
+	margin: 0;
+}
+
+body {
+	@extend html;
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+	color: #444;
+}
